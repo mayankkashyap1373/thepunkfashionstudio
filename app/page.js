@@ -113,73 +113,74 @@ export default function Home() {
         {/* <h3 className='text-center text-6xl font-oswald text-gray-200 pt-36'>About IFACET</h3> */}
         <p className='text-justify font-jost text-2xl font-light mt-16'>Welcome to The Punk Fashion Studio, the ultimate sanctuary for rebellious souls seeking authenticity. Born out of a dream to redefine punk culture, we've built a haven where edgy aesthetics and kind-hearted spirits blend seamlessly.<br />
 
-Here, style is an expression of defiance, but that doesn't mean you can't have a heart of gold. Our founder believed in the duality of the punk persona – edgy on the outside, gentle on the inside – and made it our guiding principle.<br />
+          Here, style is an expression of defiance, but that doesn't mean you can't have a heart of gold. Our founder believed in the duality of the punk persona – edgy on the outside, gentle on the inside – and made it our guiding principle.<br />
 
-Step into our world, where you'll find a cornucopia of avant-garde clothing, audacious hairstyles, and intricate tattoos. As you explore, imagine yourself in a radical new look, embodying the raw punk energy while remaining true to your gentle spirit.<br />
+          Step into our world, where you'll find a cornucopia of avant-garde clothing, audacious hairstyles, and intricate tattoos. As you explore, imagine yourself in a radical new look, embodying the raw punk energy while remaining true to your gentle spirit.<br />
 
-Excited? Take the leap. Join our punk revolution and let your style scream authenticity. The Punk Fashion Studio is not just a shop, hair salon, or tattoo studio. It's a lifestyle, a movement, a family. And we can't wait for you to become part of it.</p>
-        </section>
-        <section id='about-us' className='relative '>
+          Excited? Take the leap. Join our punk revolution and let your style scream authenticity. The Punk Fashion Studio is not just a shop, hair salon, or tattoo studio. It's a lifestyle, a movement, a family. And we can't wait for you to become part of it.</p>
+      </section>
+      <section id='gallery' className='relative '>
         <div className='flex justify-center items-center'>
           <h1 className='text-5xl font-bold tracking-widest font-comforter text-[#ff3d3e]'>Gallery</h1>
         </div>
       </section>
-      <section id='gallery' className='h-96 bg-darkslateblue pl-[8.75rem] h-fit pb-32 pt-20 text-black'>
-                <div className='flex w-fit items-center'>
-                    <div className='relative w-fit shadow-custom-dark mr-[1.5rem]'>
-                        <div className='absolute bottom-0 h-[11.5rem] bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-8 pb-4 text-left w-full flex flex-col justify-between'>
-                            <p className='mb-4'>Tattoo</p>
-                            <button className='text-left text-[1rem] text-coral flex items-center font-jost'>
-                                Explore course
-                                <Icon className='rotate-[135deg] ml-4' icon="teenyicons:arrow-solid" />
-                            </button>
-                        </div>
-                        <Image src='/images/image_6483441 (2).JPG' width={392} height={441} />
-                    </div>
-                    <div className='relative w-fit shadow-custom-dark mr-[1.5rem]'>
-                        <div className='absolute bottom-0 h-[11.5rem] bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-8 pb-4 text-left w-full flex flex-col justify-between'>
-                            <p className='mb-4'>Salon</p>
-                            <button className='text-left text-[1rem] text-coral flex items-center font-jost'>
-                                Explore course
-                                <Icon className='rotate-[135deg] ml-4' icon="teenyicons:arrow-solid" />
-                            </button>
-                        </div>
-                        <Image src='/images/image_6483441 (2).JPG' width={392} height={441} />
-                    </div>
-                    <div className='relative w-fit shadow-custom-dark mr-[1.5rem]'>
-                        <div className='absolute bottom-0 h-[11.5rem] bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-8 pb-4 text-left w-full flex flex-col justify-between'>
-                            <p className='mb-4'>The Punk School</p>
-                            <button className='text-left text-[1rem] text-coral flex items-center font-jost'>
-                                Explore course
-                                <Icon className='rotate-[135deg] ml-4' icon="teenyicons:arrow-solid" />
-                            </button>
-                        </div>
-                        <Image src='/images/image_6483441 (2).JPG' width={392} height={441} />
-                    </div>
-                </div>
-            </section>
+      <section id='gallery' className='h-auto bg-darkslateblue py-6 sm:pt-20 sm:pb-28 px-4 xs:px-12 sm:px-20 lg:px-28 xl:px-36 2xl:px-80 3xl:px-96 flex justify-center mb-96 text-black'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-fit'>
+          <div className='relative w-fit shadow-custom-dark mr-[1.5rem]'>
+            <div className='absolute bottom-0 h-36 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-8 pb-4 text-left w-full flex flex-col justify-between'>
+              <p className='mb-4'>Tattoo</p>
+              <button className='text-left text-[1rem] text-coral flex items-center font-jost'>
+                Explore full gallery
+                <Icon className='rotate-[135deg] ml-4' icon="teenyicons:arrow-solid" />
+              </button>
+            </div>
+            <Image src='/images/image_6483441 (2).JPG' width={392} height={441} />
+          </div>
+          <div className='relative w-fit shadow-custom-dark mr-[1.5rem]'>
+            <div className='absolute bottom-0 h-36 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-8 pb-4 text-left w-full flex flex-col justify-between'>
+              <p className='mb-4'>Salon</p>
+              <button className='text-left text-[1rem] text-coral flex items-center font-jost'>
+              Explore full gallery
+                <Icon className='rotate-[135deg] ml-4' icon="teenyicons:arrow-solid" />
+              </button>
+            </div>
+            <Image src='/images/IMG-9291.jpg' width={392} height={441} />
+          </div>
+          <div className='relative w-fit shadow-custom-dark mr-[1.5rem]'>
+            <div className='absolute bottom-0 h-36 bg-[#ff3d3e] opacity-70 text-4xl font-oswald p-8 pb-4 text-left w-full flex flex-col justify-between'>
+              <p className='mb-4'>The Punk School</p>
+              <button className='text-left text-[1rem] text-coral flex items-center font-jost'>
+                Explore course
+                <Icon className='rotate-[135deg] ml-4' icon="teenyicons:arrow-solid" />
+              </button>
+            </div>
+            <Image src='/images/image_6483441 (4).JPG' width={392} height={441} />
+          </div>
+        </div>
+      </section>
       <section id='our-specialists' className='relative mb-16'>
         <div className='flex justify-center items-center'>
           <h1 className='text-5xl font-bold tracking-widest font-comforter'>Our Specialists</h1>
         </div>
       </section>
-      <section className='bg-whitesmoke pb-24 px-[8.75rem]'>
-        {/* <h3 className='text-center text-6xl font-oswald text-gray-200 pt-36'>About IFACET</h3> */}        <div className='grid grid-cols-3 gap-4 content-center'>
-          <div className='w-fit custom-overlay shadow-custom-dark flex flex-col items-center'>
-            <div className='default-text px-8 text-center'>Pranjul Garu (Hair Stylist)</div>
-            <a href="#" className="hidden hover-link text-coral font-oswald text-4xl flex flex-col text-center">Training<Icon className='rotate-[135deg] text-6xl text-darkslateblue' icon="teenyicons:arrow-solid" /></a>
-            <Image src='/images/IMG_20220115_210534-1-1536x2048.jpg' width={396} height={541} />
+      <section className='bg-whitesmoke pb-24 px-[8.75rem] flex justify-center'>
+        {/* <h3 className='text-center text-6xl font-oswald text-gray-200 pt-36'>About IFACET</h3> */}
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 w-fit font-oswald'>
+          <div className='relative w-54 shadow-custom-dark'>
+            <Image alt='training-thumbnail' src='/images/IMG_20220115_210534-1-1536x2048.jpg' width={396} height={397} />
+            <div className='sm:px-4 md:px-8 text-xl h-24 md:text-2xl flex flex-col justify-center  md:h-28'>Pranjul Gaur <span className='text-lg text-left font-jost text-[#ff3d3e]'>Hair Stylist</span></div>
           </div>
-          <div className='relative w-fit custom-overlay shadow-custom-dark'>
-            <div className='default-text px-8 text-center'>Tattoo Studio</div>
-            <a href="#" className="hidden hover-link text-coral font-oswald text-4xl flex flex-col text-center">Consulting<Icon className='rotate-[135deg] text-6xl text-darkslateblue' icon="teenyicons:arrow-solid" /></a>
-            <Image src='/images/image_6483441 (2).JPG' width={396} height={541} />
-          </div>
-          <div className='relative w-fit custom-overlay shadow-custom-dark'>
-            <div className='default-text px-8 text-center'>Hair Salon</div>
-            <a href="#" className="hidden hover-link text-coral font-oswald text-4xl flex flex-col text-center">Innovation & Entrepreneurship<Icon className='rotate-[135deg] text-6xl text-darkslateblue' icon="teenyicons:arrow-solid" /></a>
-            <Image src='/Paraphrase Productions (1).jpg' width={396} height={541} />
-          </div>
+          <div className='relative w-54 shadow-custom-dark'>
+            <Image alt='training-thumbnail' src='/images/008731A1-1BC4-4ADA-BBCD-228C14A55F3B.JPG' width={396} height={397} />
+            <div className='sm:px-4 md:px-8 text-xl h-24 md:text-2xl flex flex-col justify-center  md:h-28'>Ajitesh Gaur <span className='text-lg text-left font-jost text-[#ff3d3e]'>Tattoo Artist</span></div>                </div>
+          {/* <div className='relative w-54 shadow-custom-dark'>
+                    <Image alt='training-thumbnail' src='/rectangle-52@2x.png' width={396} height={397} />
+                    <div className='sm:px-4 md:px-8 text-xl h-24 md:text-2xl flex justify-center items-center text-center md:h-28'>Innovation & Entrepreneurship</div>
+                </div>
+                <div className='relative w-54 shadow-custom-dark'>
+                    <Image alt='training-thumbnail' src='/rectangle-65@2x.png' width={396} height={397} />
+                    <div className='sm:px-4 md:px-8 text-xl h-24 md:text-2xl flex justify-center items-center text-center md:h-28'>EMasters</div>
+                </div> */}
         </div>
       </section>
       <section className='pb-24 px-[8.75rem] font-bebas-neue h-[30rem]'>
@@ -189,7 +190,7 @@ Excited? Take the leap. Join our punk revolution and let your style scream authe
             <p className='text-5xl font-bold uppercase text-[#ff3d3e]'>Years Experience</p>
           </div>
           <div className='flex flex-col items-center'>
-          <Image className='w-1/4 absolute top-[230rem] opacity-10 -z-10' src={Logo} alt="Logo" />
+            <Image className='w-1/4 absolute top-[230rem] opacity-10 -z-10' src={Logo} alt="Logo" />
             <h1 className='text-8xl font-bold mb-12'>7+</h1>
             <p className='text-5xl font-bold uppercase text-[#ff3d3e]'>Clients from Cities</p>
           </div>
@@ -199,7 +200,7 @@ Excited? Take the leap. Join our punk revolution and let your style scream authe
           </div>
         </div>
       </section>
-      <section className='h-[10rem] pb-24 px-[8.75rem] bg-fixed bg-size-contain mb-32' style={{"background-image": "url('/images/image_6487327.JPG')", "background-repeat": "no-repeat"}} />
+      <section className='h-[10rem] pb-24 px-[8.75rem] bg-fixed bg-size-contain mb-32' style={{ "background-image": "url('/images/image_6487327.JPG')", "background-repeat": "no-repeat" }} />
       <section id='special-offer' className='relative mb-16'>
         <div className='flex justify-center items-center'>
           <h1 className='text-5xl font-bold tracking-widest font-comforter mb-8 text-[#ff3d3e]'>Special Offers</h1>
@@ -218,11 +219,11 @@ Excited? Take the leap. Join our punk revolution and let your style scream authe
           <div className='grid grid-cols-2 gap-4 content-center'>
             <p>sfdgghbnm,</p>
             <p>sfdgghbnm,</p>
-            </div>
+          </div>
         </div>
       </section>
-        <footer className='bg-darkslateblue h-32 flex justify-center items-start m-20 font-oswald mb-72 mx-20'>
-          <div className='w-1/2'>
+      <footer className='bg-darkslateblue h-32 flex justify-center items-start m-20 font-oswald mb-72 mx-20'>
+        <div className='w-1/2'>
           <div className='flex flex-col justify-center items-start'>
             <p className='text-6xl font-bold mb-16 uppercase text-[#ff3d3e] font-bebas-neue'>The Punk Fashion Studio</p>
             <div className='flex justify-start items-center'>
@@ -233,19 +234,19 @@ Excited? Take the leap. Join our punk revolution and let your style scream authe
               <Icon className='text-[#ff3d3e] text-5xl ml-8' icon="akar-icons:pinterest-fill" />
             </div>
           </div>
-          </div>
-          <div className='w-1/2'>
+        </div>
+        <div className='w-1/2'>
           <div id='contact-us' className='flex flex-col justify-center items-start pl-12'>
             <p className='text-white text-4xl mb-16 uppercase'>Contact Us</p>
             <div className='font-jost'>
-            <p className='text-white text-xl flex tracking-widest mb-8'><Icon className='text-[#ff3d3e] text-5xl mr-8' icon="mdi:address-marker" /><div><span>118/164 (7), Gumti No.5, Kaushalpuri, Darshan Purwa, Kanpur, Uttar Pradesh 208012</span><a href='https://goo.gl/maps/cvMJpn2NRzND3r6G7'><br /><span className='underline cursor-pointer'>(Click here to reach our location)</span></a></div></p>
-            <p className='text-white text-xl flex tracking-widest mb-8'><Icon className='text-[#ff3d3e] text-4xl mr-8' icon="mdi:phone" />+91 885855910, +91 8177006806</p>
-            <p className='text-white text-xl flex tracking-widest mb-8'><Icon className='text-[#ff3d3e] text-4xl mr-8' icon="mdi:email" />thepunkfashionstudio@gmail.com</p>
+              <p className='text-white text-xl flex tracking-widest mb-8'><Icon className='text-[#ff3d3e] text-5xl mr-8' icon="mdi:address-marker" /><div><span>118/164 (7), Gumti No.5, Kaushalpuri, Darshan Purwa, Kanpur, Uttar Pradesh 208012</span><a href='https://goo.gl/maps/cvMJpn2NRzND3r6G7'><br /><span className='underline cursor-pointer'>(Click here to reach our location)</span></a></div></p>
+              <p className='text-white text-xl flex tracking-widest mb-8'><Icon className='text-[#ff3d3e] text-4xl mr-8' icon="mdi:phone" />+91 885855910, +91 8177006806</p>
+              <p className='text-white text-xl flex tracking-widest mb-8'><Icon className='text-[#ff3d3e] text-4xl mr-8' icon="mdi:email" />thepunkfashionstudio@gmail.com</p>
             </div>
           </div>
-          </div>
-        </footer>
-        <div className='mb-8'>
+        </div>
+      </footer>
+      <div className='mb-8'>
         <p className='text-white text-2xl text-center font-jost'>&copy; {new Date().getFullYear()} The Punk Fashion Studio</p></div>
     </main>
   )
